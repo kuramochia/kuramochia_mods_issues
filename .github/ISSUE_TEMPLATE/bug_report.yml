@@ -69,10 +69,10 @@ body:
       required: true
 
   - type: dropdown
-    id: game_version
+    id: game_name
     attributes:
-      label: ゲームバージョン
-      description: バグが発生しているゲームとバージョンを選択してください
+      label: ETS2 / ATS のどちらで発生しているか
+      description: バグが発生しているゲームを選択してください
       options:
         - Euro Truck Simulator 2
         - American Truck Simulator
