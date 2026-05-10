@@ -1,0 +1,100 @@
+name: 質問・サポート
+description: MOD について質問やサポートが必要な場合
+title: "[質問] "
+labels: ["question"]
+assignees:
+  - kuramochia
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > ⚠️ **注意：** game.log.txt が添付されていない場合、確認せずにクローズします。
+
+  - type: input
+    id: mod_name
+    attributes:
+      label: MOD名
+      description: 質問の対象となるMOD名を入力してください
+      placeholder: 例：My Awesome MOD
+    validations:
+      required: true
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: MODバージョン
+      description: MODのバージョンを入力してください
+      placeholder: 例：1.0.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: question_content
+    attributes:
+      label: 質問内容
+      description: 質問や相談内容を詳しく説明してください
+      placeholder: 質問内容...
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: 詳細情報
+      description: 質問の詳細や背景を説明してください
+      placeholder: 詳細情報...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: game_name
+    attributes:
+      label: ゲーム
+      description: ご使用のゲームを選択してください
+      options:
+        - Euro Truck Simulator 2
+        - American Truck Simulator
+    validations:
+      required: true
+
+  - type: input
+    id: game_version_number
+    attributes:
+      label: ゲームバージョン番号
+      description: 具体的なゲームのバージョン番号を入力してください
+      placeholder: 例：1.50.0.1s
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: game_log_attached
+    attributes:
+      label: game.log.txt 添付確認
+      description: "⚠️ **必須** - game.log.txt をこのIssueに添付してください"
+      options:
+        - label: game.log.txt を添付しました
+          required: true
+
+  - type: textarea
+    id: screenshot_video
+    attributes:
+      label: スクリーンショット/動画
+      description: 状況を示すスクリーンショットや動画があれば説明してください（オプション）
+      placeholder: スクリーンショット/動画の説明...
+
+  - type: textarea
+    id: tried_things
+    attributes:
+      label: 試したこと
+      description: すでに試したことや調べたことがあれば記載してください
+      placeholder: 試したこと...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: 追加情報
+      description: その他の関連情報があれば記載してください（オプション）
+      placeholder: 追加情報...
