@@ -16,7 +16,7 @@ body:
     attributes:
       label: MOD名
       description: 不具合が発生しているMOD名を入力してください
-      placeholder: 例：My Awesome MOD
+      placeholder: 例：Scania Custom Chrome Parts
     validations:
       required: true
 
@@ -25,7 +25,7 @@ body:
     attributes:
       label: MODバージョン
       description: MODのバージョンを入力してください
-      placeholder: 例：1.0.0
+      placeholder: 例：1.0
     validations:
       required: true
 
@@ -33,7 +33,7 @@ body:
     id: bug_description
     attributes:
       label: バグの説明
-      description: バグの内容を簡潔に説明してください
+      description: バグの内容を説明してください
       placeholder: バグの内容...
     validations:
       required: true
@@ -82,8 +82,8 @@ body:
   - type: input
     id: game_version_number
     attributes:
-      label: ゲームバージョン番号
-      description: 具体的なゲームのバージョン番号を入力してください
+      label: ゲームバージョン
+      description: ゲームのバージョン番号を入力してください
       placeholder: 例：1.50.0.1s
     validations:
       required: true
