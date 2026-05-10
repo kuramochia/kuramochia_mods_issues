@@ -22,7 +22,7 @@ This repository is used to manage issues for mods created by kuramochia.
 
 ## 📝 Report an Issue / Ask a Question
 
->> [Create a new issue](https://github.com/kuramochia/kuramochia_mods_issues/issues/new/choose) <<
+＞＞ [Create a new issue](https://github.com/kuramochia/kuramochia_mods_issues/issues/new/choose) ＜＜
 
 ## Supported Mods
 
