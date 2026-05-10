@@ -15,3 +15,22 @@
 
 その他のMODについてのIssueはクローズさせていただきます。
 
+---
+
+# kuramochia_mods_issues (English)
+This repository is used to manage issues for mods created by kuramochia.
+
+## 📝 Report an Issue / Ask a Question
+
+>> [Create a new issue](https://github.com/kuramochia/kuramochia_mods_issues/issues/new/choose) <<
+
+## Supported Mods
+
+Issue reports in this repository are only accepted for the following mods:
+
+- Mods published in [MOD list (Gist)](https://gist.github.com/kuramochia/9d98537c51f1700f8e8e79b392733d87)
+- Mods published on [Euro Truck Simulator 2 - Steam Workshop](https://steamcommunity.com/app/227300/workshop/)
+- Mods published on [American Truck Simulator - Steam Workshop](https://steamcommunity.com/app/270880/workshop/)
+
+Issues about other mods will be closed.
+
