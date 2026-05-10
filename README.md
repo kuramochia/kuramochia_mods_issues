@@ -10,8 +10,8 @@
 このレポジトリでの Issue 報告の対象は、以下のMODのみです：
 
 - [MOD一覧（Gist）](https://gist.github.com/kuramochia/9d98537c51f1700f8e8e79b392733d87) で公開しているMOD
-- [Euro Truck Simulator 2 - Steam Workshop](https://steamcommunity.com/app/227300/workshop/) で公開しているMOD
-- [American Truck Simulator - Steam Workshop](https://steamcommunity.com/app/270880/workshop/) で公開しているMOD
+- [Euro Truck Simulator 2 - Steam Workshop](https://steamcommunity.com/id/kuramochia/myworkshopfiles/?appid=227300&p=1&numperpage=30) で公開しているMOD
+- [American Truck Simulator - Steam Workshop](https://steamcommunity.com/id/kuramochia/myworkshopfiles/?appid=270880&p=1&numperpage=30) で公開しているMOD
 
 その他のMODについてのIssueはクローズさせていただきます。
 
@@ -29,8 +29,8 @@ This repository is used to manage issues for mods created by kuramochia.
 Issue reports in this repository are only accepted for the following mods:
 
 - Mods published in [MOD list (Gist)](https://gist.github.com/kuramochia/9d98537c51f1700f8e8e79b392733d87)
-- Mods published on [Euro Truck Simulator 2 - Steam Workshop](https://steamcommunity.com/app/227300/workshop/)
-- Mods published on [American Truck Simulator - Steam Workshop](https://steamcommunity.com/app/270880/workshop/)
+- Mods published on [Euro Truck Simulator 2 - Steam Workshop](https://steamcommunity.com/id/kuramochia/myworkshopfiles/?appid=227300&p=1&numperpage=30)
+- Mods published on [American Truck Simulator - Steam Workshop](https://steamcommunity.com/id/kuramochia/myworkshopfiles/?appid=270880&p=1&numperpage=30)
 
 Issues about other mods will be closed.
 
