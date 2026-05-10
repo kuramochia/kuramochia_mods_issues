@@ -77,6 +77,13 @@ body:
           required: true
 
   - type: textarea
+    id: game_log_content
+    attributes:
+      label: game.log.txt の内容
+      description: game.log.txt ファイルをドラッグ&ドロップするか、クリックして選択してください
+      placeholder: ここにログファイルを貼り付けるか添付してください
+
+  - type: textarea
     id: screenshot_video
     attributes:
       label: スクリーンショット/動画
