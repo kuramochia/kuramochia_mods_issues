@@ -1,0 +1,119 @@
+name: "[EN] Bug Report"
+description: Report a problem with a mod
+title: "[BUG] "
+labels: ["bug"]
+assignees:
+  - kuramochia
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > ⚠️ **Note:** Issues without an attached game.log.txt will be closed without review.
+
+  - type: input
+    id: mod_name
+    attributes:
+      label: Mod name
+      description: Enter the name of the mod where the issue occurred
+      placeholder: "e.g., Scania Custom Chrome Parts"
+    validations:
+      required: true
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod version
+      description: Enter the mod version
+      placeholder: "e.g., 1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: Bug description
+      description: Describe the issue
+      placeholder: Describe the issue...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe the steps to reproduce the issue as a numbered list
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what should have happened
+      placeholder: Expected behavior...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual behavior
+      description: Describe what actually happened
+      placeholder: Actual behavior...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: game_name
+    attributes:
+      label: Game
+      description: Select the game where the issue occurred
+      options:
+        - Euro Truck Simulator 2
+        - American Truck Simulator
+    validations:
+      required: true
+
+  - type: input
+    id: game_version_number
+    attributes:
+      label: Game version
+      description: Enter the game version number
+      placeholder: "e.g., 1.50.0.1s"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: game_log_attached
+    attributes:
+      label: game.log.txt attachment confirmation
+      description: "⚠️ **Required** - Attach game.log.txt to this issue"
+      options:
+        - label: I have attached game.log.txt
+          required: true
+
+  - type: textarea
+    id: game_log_content
+    attributes:
+      label: game.log.txt contents
+      description: Drag and drop the game.log.txt file here, or click to select it
+      placeholder: Paste or attach the log file here
+
+  - type: textarea
+    id: screenshot_video
+    attributes:
+      label: Screenshot / video
+      description: If available, describe or attach screenshots or videos showing the issue (optional)
+      placeholder: Describe the screenshot or video...
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional information
+      description: Include any other relevant information (optional)
+      placeholder: Additional information...
